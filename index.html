@@ -13,7 +13,7 @@
      <header>
         <nav class="navbar px-5 md:px-10">
             <img class="hover:cursor-pointer" src="image/navLogo.png" alt="Logo">
-            <ul class="nav-links nav gap-5">
+            <ul class="nav-links nav gap-3 md:gap-5 d-none d-md-flex">
                 <li><a class="text-decoration-none text-black" href="#">Home</a></li>
                 <li><a class="text-decoration-none text-black" href="#">About Us</a></li>
                 <li><a class="text-danger text-decoration-none" href="#">Upskill</a></li>
@@ -21,13 +21,31 @@
             </ul>
             <button class="bg-[#F44335] text-white py-2 px-4 rounded hover:bg-[#960000] transition duration-200">Register Interest</button>
         </nav>
+
      </header>
     <!-- Hero Section -->
-     <section class="bg-[url('image/HeroLogo.png')]">
+     <section class="pt-5 relative bg-[url('image/HeroLogo.png')] bg-no-repeat bg-cover bg-center h-[100vh] md:h-screen">
 
-        <div class="text-red-500"></div>
-        
+        <div class="flex flex-column items-center">
+            <div class="flex items-center">
+               <h4 class="font-semibold text-white">Discover</h4>
+               <span class="text-red-600 font-semibold inline-block  w-[10px] h-[2px] bg-red-600 mx-2"></span>
+               <h4 class="font-semibold text-white">Interact</h4>
+               <span class="text-red-600 font-semibold inline-block  w-[10px] h-[2px] bg-red-600 mx-2"></span>
+               <h4 class=" font-semibold text-white">Engage</h4>
+            </div>
+            <div>
+               <p class="text-center text-3xl leading-10 md:text-5xl md:leading-15 dark:text-white">Connecting <span class="inline-block text-red-500 underline underline-offset-8">talent</span> to <br> opportunity through <span class="inline-block text-red-500 underline-offset-8">skills</span></p>
+            </div>
+            <p class="text-center text-white md:text-[20px] mx-10 sm:md-0 ">We forster a skill-focussed environment enabling students to navigate their career with <br class="d-none d-md-block"> their self-paced learning journey and businesses to gain market-ready talent. </p>
+            <button class="bg-[#fff] hover:bg-gray-200 text-danger px-4 py-2 rounded-pill ">Ask questions</button>
+        </div>
+
+        <img class="absolute bottom-[-1px]" src="image/Wave.svg" alt="">
      </section>
+
+
+     
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
