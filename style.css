@@ -1,4 +1,7 @@
 @import "tailwindcss";
-@layer utilities{
-    
-}
+/* @layer utilities{
+    .icon {
+        @apply bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle;
+    }
+
+} */
