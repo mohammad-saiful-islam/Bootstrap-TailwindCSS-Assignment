@@ -1,272 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap & TailwindCSS Assignment</title>
-    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/77e0ec3df2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <!-- Heading Section -->
-     <header>
-        <nav class="navbar px-5 md:px-10">
-            <img class="hover:cursor-pointer w-[100px] md:w-[135px]" src="image/navLogo.png" alt="Logo">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Bootstrap & TailwindCSS Assignment</title>
+      <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon" />
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/77e0ec3df2.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body style="font-family: Plus Jakarta Sans, sans-serif;">
+      <!-- Heading Section -->
+      <header>
+         <nav class="navbar px-5 md:px-10">
+            <img class="hover:cursor-pointer w-[100px] md:w-[135px]" src="image/navLogo.png" alt="Logo" />
             <ul class="nav-links nav gap-3 md:gap-5 d-none d-md-flex">
-                <li><a class="text-decoration-none text-black" href="#">Home</a></li>
-                <li><a class="text-decoration-none text-black" href="#">About Us</a></li>
-                <li><a class="text-danger text-decoration-none" href="#">Upskill</a></li>
-                <li><a class="text-decoration-none text-black" href="#">Contact us</a></li>
+               <li><a class="text-decoration-none text-black" href="#">Home</a></li>
+               <li><a class="text-decoration-none text-black" href="#">About Us</a></li>
+               <li><a class="text-danger text-decoration-none" href="#">Upskill</a></li>
+               <li><a class="text-decoration-none text-black" href="#">Contact us</a></li>
             </ul>
-            <button class="bg-[#F44335] text-white pb-1 sm: md:py-2 px-4 rounded hover:bg-[#960000] transition duration-200 "><span class="text-[10px] d-inline-block md:text-[16px] md:pb-1">Register Interest</span></button>
-        </nav>
-
-     </header>
-    <!-- Hero Section -->
-     <section class="pt-5 relative bg-[url('image/HeroLogo.png')] bg-no-repeat bg-cover bg-center h-[100vh] md:h-screen">
-
-        <div class="flex flex-column items-center">
+            <button class="bg-[#F44335] text-white pb-1 sm: md:py-2 px-4 rounded hover:bg-[#960000] transition duration-200"><span class="text-[10px] d-inline-block md:text-[16px] md:pb-1">Register Interest</span></button>
+         </nav>
+      </header>
+      <!-- Hero Section -->
+      <section class="pt-5 relative bg-[url('image/HeroLogo.png')] bg-no-repeat bg-cover bg-center h-[100vh] md:h-screen">
+         <div class="flex flex-column items-center">
             <div class="flex items-center">
                <h4 class="font-semibold text-white">Discover</h4>
-               <span class="text-red-600 font-semibold inline-block  w-[10px] h-[2px] bg-red-600 mx-2"></span>
+               <span class="text-red-600 font-semibold inline-block w-[10px] h-[2px] bg-red-600 mx-2"></span>
                <h4 class="font-semibold text-white">Interact</h4>
-               <span class="text-red-600 font-semibold inline-block  w-[10px] h-[2px] bg-red-600 mx-2"></span>
-               <h4 class=" font-semibold text-white">Engage</h4>
+               <span class="text-red-600 font-semibold inline-block w-[10px] h-[2px] bg-red-600 mx-2"></span>
+               <h4 class="font-semibold text-white">Engage</h4>
             </div>
             <div>
-               <p class="text-center text-3xl leading-10 md:text-5xl md:leading-15 dark:text-white">Connecting <span class="inline-block text-red-500 underline underline-offset-8">talent</span> to <br> opportunity through <span class="inline-block text-red-500 underline-offset-8">skills</span></p>
+               <p class="text-center text-3xl leading-10 md:text-5xl md:leading-15 dark:text-white">
+                  Connecting <span class="inline-block text-red-500 underline underline-offset-8">talent</span> to <br />
+                  opportunity through <span class="inline-block text-red-500 underline-offset-8">skills</span>
+               </p>
             </div>
-            <p class="text-center text-white md:text-[20px] mx-10 sm:md-0 ">We forster a skill-focussed environment enabling students to navigate their career with <br class="d-none d-md-block"> their self-paced learning journey and businesses to gain market-ready talent. </p>
-            <button class="bg-[#fff] hover:bg-gray-200 text-danger px-4 py-2 rounded-pill ">Ask questions</button>
-            
+            <p class="text-center text-white md:text-[20px] mx-10 sm:md-0">
+               We forster a skill-focussed environment enabling students to navigate their career with <br class="d-none d-md-block" />
+               their self-paced learning journey and businesses to gain market-ready talent.
+            </p>
+            <button class="bg-[#fff] hover:bg-gray-200 text-danger px-4 py-2 rounded-pill">Ask questions</button>
+
             <div class="bg-danger w-25 h-[100vh] absolute top-0 left-0 z-n1"></div>
-        </div>
+         </div>
 
-        <img class="absolute bottom-[-1px]" src="image/Wave.svg" alt="">
-     </section>
+         <img class="absolute bottom-[-1px]" src="image/Wave.svg" alt="" />
+      </section>
 
-
-     <!-- We Empower Section -->
+      <!-- We Empower Section -->
       <div class="bg-[#eeeeee] py-5 flex flex-col md:flex-row gap-4 md:items-center justify-evenly">
-        <h1 class="mx-5 md:mx-0">At <span class="inline-block text-red-500 underline-offset-8">C4U</span>, <br> We Empower:</h1>
+         <h1 class="mx-5 md:mx-0">
+            At <span class="inline-block text-red-500 underline-offset-8">C4U</span>, <br />
+            We Empower:
+         </h1>
 
-        <div class="bg-[#2D3142] py-4 px-3 rounded-lg flex flex-col items-center md:items-start mx-5 md:mx-0 gap-3 ">
-            <div class="bg-white h-[50px] w-[50px] flex items-center justify-content-center rounded-full"><img src="image/Group (1).png" alt=""></div>
+         <div class="bg-[#2D3142] py-4 px-3 rounded-lg flex flex-col items-center md:items-start mx-5 md:mx-0 gap-3">
+            <div class="bg-white h-[50px] w-[50px] flex items-center justify-content-center rounded-full"><img src="image/Group (1).png" alt="" /></div>
             <h3 class="text-white">Student</h3>
             <p class="text-white md:w-[300px]">We help students find their way in a fast-evolving world by creating a personalised learning journey guaranteed to help stand out in a crowded job market.</p>
-        </div>
-        <div class="bg-[#2D3142] py-4 px-3 rounded-lg flex flex-col items-center md:items-start mx-5 md:mx-0 gap-3 ">
-            <div class="bg-white h-[50px] w-[50px] flex items-center justify-content-center rounded-full"><img src="image/Group 1702.png" alt=""></div>
+         </div>
+         <div class="bg-[#2D3142] py-4 px-3 rounded-lg flex flex-col items-center md:items-start mx-5 md:mx-0 gap-3">
+            <div class="bg-white h-[50px] w-[50px] flex items-center justify-content-center rounded-full"><img src="image/Group 1702.png" alt="" /></div>
             <h3 class="text-white">Universities</h3>
             <p class="text-white md:w-[300px]">We help students find their way in a fast-evolving world by creating a personalised learning journey guaranteed to help stand out in a crowded job market.</p>
-        </div>
-        <div class="bg-[#2D3142] py-4 px-3 rounded-lg flex flex-col items-center md:items-start mx-5 md:mx-0 gap-3 ">
-            <div class="bg-white h-[50px] w-[50px] flex items-center justify-content-center rounded-full"><img src="image/Group 1686.png" alt=""></div>
+         </div>
+         <div class="bg-[#2D3142] py-4 px-3 rounded-lg flex flex-col items-center md:items-start mx-5 md:mx-0 gap-3">
+            <div class="bg-white h-[50px] w-[50px] flex items-center justify-content-center rounded-full"><img src="image/Group 1686.png" alt="" /></div>
             <h3 class="text-white">Businesses</h3>
             <p class="text-white md:w-[300px]">We help students find their way in a fast-evolving world by creating a personalised learning journey guaranteed to help stand out in a crowded job market.</p>
-        </div>
-
+         </div>
       </div>
-
 
       <!-- About Mission Section -->
-       <section class="grid grid-cols-12 grid-rows-2 md:grid-rows-1 bg-[#eeeeee]">
-
-        <!-- left -->
-        <div class="row-start-1 col-span-12 md:col-span-6 flex flex-col gap-3 items-start pt-20 px-20">
+      <section class="grid grid-cols-12 grid-rows-2 md:grid-rows-1 bg-[#eeeeee]">
+         <!-- left -->
+         <div class="row-start-1 col-span-12 md:col-span-6 flex flex-col gap-3 items-start pt-20 px-20">
             <span class="text-red-400">ABOUT US</span>
             <h1 class="">Our Mission</h1>
-            <p class="py-3">To create a personalised  pathway for continuous learning and transferrable skills development.</p>
+            <p class="py-3">To create a personalised pathway for continuous learning and transferrable skills development.</p>
             <button class="flex items-center font-semibold border-2 border-red-500 text-red-500 rounded-pill px-2 py-1">Find out more <i class="fa-solid fa-arrow-right mx-1"></i></button>
-        </div>
-        <!-- right -->
-         <div class="col-span-12 md:col-span-6
-         row-start-2 md:row-start-1 flex justify-center md:border-t-0 md:border-l-2 border-gray-300 mt-5 py-10 md:py-0 relative md:pb-5">
-            <span class="md:size-8 bg-[#00FF84] rounded-full absolute md:top-0 md:left-[-17px]  "></span>
-            <img src="image/Group 238902 (1).png" alt="">
          </div>
-</section>
-
+         <!-- right -->
+         <div class="col-span-12 md:col-span-6 row-start-2 md:row-start-1 flex justify-center md:border-t-0 md:border-l-2 border-gray-300 mt-5 py-10 md:py-0 relative md:pb-5">
+            <span class="md:size-8 bg-[#00FF84] rounded-full absolute md:top-0 md:left-[-17px]"></span>
+            <img src="image/Group 238902 (1).png" alt="" />
+         </div>
+      </section>
 
       <!-- About Vision Section -->
-       <section class="grid grid-cols-12 grid-rows-2 md:grid-rows-1 bg-[#eeeeee]">
-
-        <!-- Left img -->
-         <div class="col-span-12 md:col-span-6
-         row-start-2 md:row-start-1 flex justify-center pt-40">
-            <img src="image/Right.png" alt="">
+      <section class="grid grid-cols-12 grid-rows-2 md:grid-rows-1 bg-[#eeeeee]">
+         <!-- Left img -->
+         <div class="col-span-12 md:col-span-6 row-start-2 md:row-start-1 flex justify-center pt-40">
+            <img src="image/Right.png" alt="" />
          </div>
 
-
-        <!-- Right -->
-        <div class="row-start-1 col-span-12 md:col-span-6 flex flex-col gap-3 items-start pt-10 px-20
-        md:border-t-0 md:border-l-2 border-gray-300 md:py-0 relative">
-        <span class="md:size-8 bg-[#00FF84] rounded-full absolute bottom-[-17px]  md:bottom-140 md:left-[-17px] "></span>
+         <!-- Right -->
+         <div class="row-start-1 col-span-12 md:col-span-6 flex flex-col gap-3 items-start pt-10 px-20 md:border-t-0 md:border-l-2 border-gray-300 md:py-0 relative">
+            <span class="md:size-8 bg-[#00FF84] rounded-full absolute bottom-[-17px] md:bottom-140 md:left-[-17px]"></span>
             <span class="text-red-400 pt-40 d-inline-block">ABOUT US</span>
             <h1 class="">Our Vision</h1>
-            <p class="py-3">To create a personalised  pathway for continuous learning and transferrable skills development.</p>
+            <p class="py-3">To create a personalised pathway for continuous learning and transferrable skills development.</p>
             <button class="flex items-center font-semibold border-2 border-red-500 text-red-500 rounded-pill px-2 py-1">Contact us <i class="fa-solid fa-arrow-right mx-1"></i></button>
-        </div>
-        
-</section>
+         </div>
+      </section>
 
+      <!-- Marketing Idea Section -->
+      <section class="text-center relative">
+         <!-- top line -->
+         <span class="relative d-inline-block md:h-[100px] md:w-[2px] ml-[2px] md:bg-gray-300">
+            <span class="md:size-8 bg-[#00FF84] rounded-full absolute bottom-[-17px] md:bottom-0 md:left-[-17px]"></span>
+         </span>
 
-
-<!-- Marketing Idea Section -->
- <section class="text-center relative">
-    <!-- top line -->
-     <span class="relative d-inline-block md:h-[100px] md:w-[2px] ml-[2px] md:bg-gray-300 ">
-        <span class="md:size-8 bg-[#00FF84] rounded-full absolute bottom-[-17px] md:bottom-0 md:left-[-17px] "></span>
-     </span>
-     
-     
-
-     <!-- main Content -->
-      <div class="bg-white flex flex-col md:flex-row justify-content-around mt-[100px]">
-
-        <div class="relative flex flex-col mx-5 md:mx-0 items-start gap-3 py-5 px-2">
-            <img class="absolute top-16 right-0" src="image/1.png" alt="">
-            <img src="image/Group 199.png" alt="">
-            <h1>Discover</h1>
-            <p>We uncover students unique skills to stand <br> out in a crowded job market</p>
-        </div>
-        <div class="relative flex flex-col mx-5 md:mx-0 items-start gap-3 py-5 px-2">
-            <img class="absolute top-16 right-0" src="image/2.png" alt="">
-            <img src="image/Group 199 (1).png" alt="">
-            <h1>Discover</h1>
-            <p>We open doors to new opportunities by <br> expanding your transferrable skills</p>
-        </div>
-        <div class="relative flex flex-col mx-5 md:mx-0 items-start gap-3 py-5 px-2">
-            <img class="absolute top-16 right-0" src="image/3.png" alt="">
-            <img src="image/Group 199 (2).png" alt="">
-            <h1>Discover</h1>
-            <p>To forester a skill focussed environment that <br> enable students to navigate their ideal career</p>
-        </div>
-
-      </div>
- </section>
-
-<!-- Creative Team Section -->
- <section class="relative pb-50">
-    <img class="absolute w-100" src="image/Rectangle 32 (1).png" alt="">
-    <div class="flex flex-col gap-5 pt-20 md:pt-30 px-10 md:px-20">
-        <div class="flex items-start">
-            <h1 class="relative pr-28">The Creative Team <br> behind <span class="text-red-500">the door <img class="absolute bottom-[-50px] right-[-20px]" src="image/Arrow_10.png" alt=""></span></h1>
-            
-        </div>
-        <!-- cards -->
-        <div class="md:flex space-y-10 md:flex-row justify-content-between ">
-            <div class="relative">
-              <div class="flex flex-column gap-2 items-center px-5 py-4 bg-white rounded-lg shadow-lg z-1 relative">
-                <img src="image/image 1.png" alt="">
-                <h2 class="h3 font-black">Leo crozier </h2>
-                <span class="text-[#999999] text-[14px]">Founder & C.E.O</span>
-                <div>
-                    <i class="fa-solid fa-phone bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
-                    <i class="fa-solid fa-envelope-open-text bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
-                    <i class="fa-brands fa-linkedin bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
-                </div>
-              </div>
-              <img class="absolute bottom-[-30px] left-[-30px] w-50 " src="image/Group 47269.png" alt="">
+         <!-- main Content -->
+         <div class="bg-white flex flex-col md:flex-row justify-content-around mt-[100px]">
+            <div class="relative flex flex-col mx-5 md:mx-0 items-start gap-3 py-5 px-2">
+               <img class="absolute top-16 right-0" src="image/1.png" alt="" />
+               <img src="image/Group 199.png" alt="" />
+               <h1>Discover</h1>
+               <p>
+                  We uncover students unique skills to stand <br />
+                  out in a crowded job market
+               </p>
             </div>
-            <div class="flex flex-column gap-2 items-center px-4 py-4 bg-white rounded-lg shadow-lg z-1">
-                <img src="image/image 2.png" alt="">
-                <h2 class=" h3 md:h4 font-black">Plus Jakarta Sans</h2>
-                <span class="text-[#999999] text-[14px]">Founder & C.E.O</span>
-                <div>
-                    <i class="fa-solid fa-phone bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
-                    <i class="fa-solid fa-envelope-open-text bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
-                    <i class="fa-brands fa-linkedin bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
-                </div>
+            <div class="relative flex flex-col mx-5 md:mx-0 items-start gap-3 py-5 px-2">
+               <img class="absolute top-16 right-0" src="image/2.png" alt="" />
+               <img src="image/Group 199 (1).png" alt="" />
+               <h1>Discover</h1>
+               <p>
+                  We open doors to new opportunities by <br />
+                  expanding your transferrable skills
+               </p>
             </div>
-            <div class="flex flex-column gap-2 items-center px-5 py-4 bg-white rounded-lg shadow-lg z-1">
-                <img src="image/image 3.png" alt="">
-                <h2 class="h3 font-black">Ekta Mahajan </h2>
-                <span class="text-[#999999] text-[14px]">Founder & C.E.O</span>
-                <div>
-                    <i class="fa-solid fa-phone bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
-                    <i class="fa-solid fa-envelope-open-text bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
-                    <i class="fa-brands fa-linkedin bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
-                </div>
+            <div class="relative flex flex-col mx-5 md:mx-0 items-start gap-3 py-5 px-2">
+               <img class="absolute top-16 right-0" src="image/3.png" alt="" />
+               <img src="image/Group 199 (2).png" alt="" />
+               <h1>Discover</h1>
+               <p>
+                  To forester a skill focussed environment that <br />
+                  enable students to navigate their ideal career
+               </p>
             </div>
-            <div class="relative">
-              <div class="flex flex-column gap-2 items-center px-5 py-4 bg-white rounded-lg shadow-lg z-1">
-                <img src="image/image 4.png" alt="">
-                <h2 class="h3 font-black">Ekta Mahajan</h2>
-                <span class="text-[#999999] text-[14px]">Founder & C.E.O</span>
-                <div>
-                    <i class="fa-solid fa-phone bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
-                    <i class="fa-solid fa-envelope-open-text bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
-                    <i class="fa-brands fa-linkedin bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
-                </div>
-              </div>
-              <img class="absolute top-[-30px] right-[-30px] w-50 z-n1" src="image/Group 47269.png" alt="">
+         </div>
+      </section>
 
+      <!-- Creative Team Section -->
+      <section class="relative pb-50">
+         <img class="absolute w-100" src="image/Rectangle 32 (1).png" alt="" />
+         <div class="flex flex-col gap-5 pt-20 md:pt-30 px-10 md:px-20">
+            <div class="flex items-start">
+               <h1 class="relative pr-28">
+                  The Creative Team <br />
+                  behind <span class="text-red-500">the door <img class="absolute bottom-[-50px] right-[-20px]" src="image/Arrow_10.png" alt="" /></span>
+               </h1>
             </div>
-        </div>
-    </div>
- </section>
-
-
- <!-- Footer Section -->
-         <footer class="dark:bg-gray-900 flex flex-col md:flex-row md:justify-around bg-white py-10 px-10 gap-5 md:py-20">
-            <div class="flex flex-col items-start gap-3">
-               <img src="image/navLogo.png" alt="">
-               <div class="flex flex-col gap-3.5">
-                  <span class="spanTag">Level39</span>
-                  <span class="spanTag">One Canada Square</span>
-                  <span class="spanTag">Canary Wharf</span>
-                  <span class="spanTag">London</span>
-                  <span class="spanTag">E14 5AB</span>
+            <!-- cards -->
+            <div class="md:flex space-y-10 md:flex-row justify-content-between">
+               <div class="relative">
+                  <div class="flex flex-column gap-2 items-center px-5 py-4 bg-white rounded-lg shadow-lg z-1 relative">
+                     <img src="image/image 1.png" alt="" />
+                     <h2 class="h3 font-black">Leo crozier</h2>
+                     <span class="text-[#999999] text-[14px]">Founder & C.E.O</span>
+                     <div>
+                        <i class="fa-solid fa-phone bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
+                        <i class="fa-solid fa-envelope-open-text bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
+                        <i class="fa-brands fa-linkedin bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
+                     </div>
+                  </div>
+                  <img class="absolute bottom-[-30px] left-[-30px] w-50" src="image/Group 47269.png" alt="" />
+               </div>
+               <div class="flex flex-column gap-2 items-center px-4 py-4 bg-white rounded-lg shadow-lg z-1">
+                  <img src="image/image 2.png" alt="" />
+                  <h2 class="h3 md:h4 font-black">Plus Jakarta Sans</h2>
+                  <span class="text-[#999999] text-[14px]">Founder & C.E.O</span>
+                  <div>
+                     <i class="fa-solid fa-phone bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
+                     <i class="fa-solid fa-envelope-open-text bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
+                     <i class="fa-brands fa-linkedin bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
+                  </div>
+               </div>
+               <div class="flex flex-column gap-2 items-center px-5 py-4 bg-white rounded-lg shadow-lg z-1">
+                  <img src="image/image 3.png" alt="" />
+                  <h2 class="h3 font-black">Ekta Mahajan</h2>
+                  <span class="text-[#999999] text-[14px]">Founder & C.E.O</span>
+                  <div>
+                     <i class="fa-solid fa-phone bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
+                     <i class="fa-solid fa-envelope-open-text bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
+                     <i class="fa-brands fa-linkedin bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
+                  </div>
+               </div>
+               <div class="relative">
+                  <div class="flex flex-column gap-2 items-center px-5 py-4 bg-white rounded-lg shadow-lg z-1">
+                     <img src="image/image 4.png" alt="" />
+                     <h2 class="h3 font-black">Ekta Mahajan</h2>
+                     <span class="text-[#999999] text-[14px]">Founder & C.E.O</span>
+                     <div>
+                        <i class="fa-solid fa-phone bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
+                        <i class="fa-solid fa-envelope-open-text bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
+                        <i class="fa-brands fa-linkedin bg-[#f0fff8] text-[#00ff84] p-2 d-inline-block rounded-circle"></i>
+                     </div>
+                  </div>
+                  <img class="absolute top-[-30px] right-[-30px] w-50 z-n1" src="image/Group 47269.png" alt="" />
                </div>
             </div>
+         </div>
+      </section>
 
-            <div class="flex flex-row flex-wrap gap-20">
-               <div class="flex flex-col gap-3.5">
-                  <h1 class="h-one">Home</h1>
-                  <span class="spanTag">Collaborations</span>
-                  <span class="spanTag">Statistics</span>
-                  <span class="spanTag">How It Works </span>
-                  <span class="spanTag">Testimonials </span>
-                  <span class="spanTag"></span>
-               </div>
+      <!-- Footer Section -->
+      <footer class="dark:bg-gray-900 flex flex-col md:flex-row md:justify-around bg-white py-10 px-10 gap-5 md:py-20">
+         <div class="flex flex-col items-start gap-3">
+            <img src="image/navLogo.png" alt="" />
+            <div class="flex flex-col gap-3.5">
+               <span class="spanTag">Level39</span>
+               <span class="spanTag">One Canada Square</span>
+               <span class="spanTag">Canary Wharf</span>
+               <span class="spanTag">London</span>
+               <span class="spanTag">E14 5AB</span>
+            </div>
+         </div>
 
-               <div class="flex flex-col gap-3.5">
-                  <h1 class="h-one">About Us</h1>
-                  <span class="spanTag">Who We Are</span>
-                  <span class="spanTag">Mission statement </span>
-                  <span class="spanTag">Our Vision </span>
-                  <span class="spanTag">The  Team </span>
-               </div>
+         <div class="flex flex-row flex-wrap gap-20">
+            <div class="flex flex-col gap-3.5">
+               <h1 class="h-one">Home</h1>
+               <span class="spanTag">Collaborations</span>
+               <span class="spanTag">Statistics</span>
+               <span class="spanTag">How It Works </span>
+               <span class="spanTag">Testimonials </span>
+               <span class="spanTag"></span>
+            </div>
 
-               <div class="flex flex-col gap-3.5">
-                  <h1 class="h-one">Upskill</h1>
-                  <span class="spanTag">It Support </span>
-                  <span class="spanTag">Project Managment </span>
-                  <span class="spanTag">Data Analysts</span>
-                  <span class="spanTag">Ux Design</span>
-               </div>
+            <div class="flex flex-col gap-3.5">
+               <h1 class="h-one">About Us</h1>
+               <span class="spanTag">Who We Are</span>
+               <span class="spanTag">Mission statement </span>
+               <span class="spanTag">Our Vision </span>
+               <span class="spanTag">The Team </span>
+            </div>
 
-               <div class="flex flex-col gap-3.5">
-               <h1 class="h-one">Contact Us </h1>
+            <div class="flex flex-col gap-3.5">
+               <h1 class="h-one">Upskill</h1>
+               <span class="spanTag">It Support </span>
+               <span class="spanTag">Project Managment </span>
+               <span class="spanTag">Data Analysts</span>
+               <span class="spanTag">Ux Design</span>
+            </div>
+
+            <div class="flex flex-col gap-3.5">
+               <h1 class="h-one">Contact Us</h1>
                <span class="spanTag">Your message </span>
                <span class="spanTag">Email </span>
                <span class="spanTag">Phone number </span>
                <span class="spanTag">Linkedin </span>
-
             </div>
-            </div>
-            
-         </footer>
-         <!-- Copy Right Section -->
-          <div class="copyright">
-            <p class="text-center border-t border-[#20484F1A] pt-3 text-[#20484F] text-[12px] md:text-[16px]">&copy; Copyright 2025 Creatives For You LTD</p>
-          </div>
+         </div>
+      </footer>
+      <!-- Copy Right Section -->
+      <div class="copyright">
+         <p class="text-center border-t border-[#20484F1A] pt-3 text-[#20484F] text-[12px] md:text-[16px]">&copy; Copyright 2025 Creatives For You LTD</p>
+      </div>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-</body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+   </body>
 </html>
